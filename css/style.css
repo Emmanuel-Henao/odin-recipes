@@ -1,0 +1,128 @@
+*{
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  ul{
+        font-size: 1.12em;
+    }
+.contenedor_elentos{
+    display: flex;
+    justify-content: center;
+    border-top:solid rgb(18,18,87) 4px;
+    border-bottom:solid rgb(18,18,87) 6px;
+    background: linear-gradient(12deg,black,grey,white);
+    border-radius: 3%;
+}
+
+#titulo_pag_principal{
+    color: white;
+    background-color: rgb(18, 18, 87);
+    border-radius: 4%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imagen{
+    position: absolute;
+    width: 66.6em;
+    height:  30em;
+}
+
+.elementos_list{
+    text-decoration: none;
+    font-size: 1.8em;
+    color: white;
+}
+.elementos_list:hover{
+    color: aliceblue;
+    font-size: 1.9em;
+}
+
+#enlace_1:hover{
+    background-color: rgba(226, 66, 8, 0.97);
+}
+#enlace_2:hover{
+    background-color: blueviolet;
+}
+#enlace_3:hover{
+    background-color: orange;
+}
+
+/* estilos compartidos*/
+
+.Preparacion{
+    color: rgb(94, 93, 93);
+}
+.inicio{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(174, 174, 244);
+    background-color: rgb(7, 7, 146);
+}
+.inicio:hover{
+    font-size: 1.6em;
+    color: rgb(7, 7, 146);
+    background-color: rgb(174,174,244);
+}
+.fondo_pag_resipes{
+position: absolute;
+height: 111em;
+} 
+.color_li{
+    color: aliceblue;
+}
+.color_li:hover{
+color: black;
+background-color: white;
+display: block;
+}
+
+/* resipe_1*/
+
+#titulo_espaguetis{
+    color: rgba(226, 66, 8, 0.97);
+    border-bottom: solid rgba(226, 66, 8, 0.97) 7px;
+    border-top: solid rgba(226, 66, 8, 0.97) 7px;
+    background-color: white; 
+    
+}
+.subTitulo_espaguetis{
+    border: solid 1px black;
+    background-color: rgba(226, 66, 8, 0.97);
+    color: white;
+    display: inline-block;
+}
+
+
+/* resipe_2*/
+
+#titulo_sancocho{
+    color:blueviolet;
+    border-bottom: solid blueviolet 7px;
+    border-top: solid blueviolet 7px;
+    background-color: white;
+}
+.subTitulo_sancocho{
+    border: solid 1px black;
+    background-color: blueviolet;
+    color: white;
+    display: inline-block;
+}
+
+/* resipe_3*/
+
+#titulo_empanadas{
+    color: orange;
+    border-bottom: solid orange 7px;
+    border-top: solid orange 7px;
+    background-color: white;
+}
+
+.subTitulo_empanadas{
+    border: solid 1px black;
+    background-color: orange;
+    color: white;
+    display: inline-block;
+}
